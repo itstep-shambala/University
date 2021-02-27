@@ -73,7 +73,7 @@ void PrintTeacher(Teacher teacher)
 
 Date InputDate()
 {
-    Date temp;
+    Date temp; //TODO Сделать проверку на ввод даты
     cout << "Ввод даты:" << endl;
     cout << "Введите год - "; cin >> temp.year;
     cout << "Введите месяц - "; cin >> temp.month;
@@ -99,7 +99,7 @@ Person InputPerson()
     cout << "Ввод данных о персоне:" << endl;
     cout << "Введите имя - "; cin >> temp.firstName;
     cout << "Введите фамилию - "; cin >> temp.lastName;
-    cout << "Введите возраст - "; cin >> temp.age;
+    cout << "Введите возраст - "; cin >> temp.age; //TODO Добавить проверку на ввод не чисел
     temp.dateOfBirth = InputDate();
     temp.contacts = InputContacts();
 
