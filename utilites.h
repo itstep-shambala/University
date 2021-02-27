@@ -67,7 +67,7 @@ void PrintTeacher(Teacher teacher)
     cout << "=== Преподаватель ===" << endl;
     PrintPerson(teacher.personInfo);
     cout << "Специализация: "; PrintSubject(teacher.subject);
-    cout << "Учёная степень: "; PrintDegree(teacher.degree)
+    cout << "Учёная степень: "; PrintDegree(teacher.degree);
     cout << "=====================" << endl;
 }
 
